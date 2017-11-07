@@ -12,6 +12,6 @@ app.use(routes)
 
 app.get('/', (request, response) => response.send('Config here'))
 
-app.listen(variables.APP_PORT, variables.APP_HOST, () => console.log('Config listening'))
+app.listen(variables.CONFIG_PORT, variables.CONFIG_HOST, () => console.log('Config listening'))
 
 export default app
